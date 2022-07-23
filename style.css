@@ -72,18 +72,30 @@ button {
 
 .informations {
     text-align: center;
+    padding-top: 10px;
 }
 
 .box-container {
     display: flex;
     height: 300px;
     justify-content: space-around;
-    align-items: center;
+    padding: 50px 0;
 }
 
 .box {
-    border: #3882F6 1px solid;
-    max-width: 100px;
-    height: 100px;
+    max-width: 160px;
     flex: 1;
+    border-radius: 10px;
+}
+
+.box-image {
+    border: #3882F6 3px solid;
+    max-width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.box-text {
+    color: #444;
+    padding-top: 10px;
 }
