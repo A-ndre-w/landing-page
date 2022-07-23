@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0 100px;
     background-color: #1F2937;
 }
 
@@ -41,8 +41,9 @@ li, p {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 10px;
+    padding: 50px 100px;
     background-color: #1F2937;
+    height: 450px;
 }
 
 .textbox {
@@ -51,9 +52,10 @@ li, p {
 }
 
 .image {
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 300px;
     background-color: gray;
+    text-align: center;
 }
 
 h1 {
@@ -72,13 +74,14 @@ button {
 
 .informations {
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 100px 0 100px;
 }
 
 .box-container {
     display: flex;
-    height: 300px;
+    height: 400px;
     justify-content: space-around;
+    align-items: center;
     padding: 50px 0;
 }
 
@@ -98,4 +101,26 @@ button {
 .box-text {
     color: #444;
     padding-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 350px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    padding-top: 20px;
+    font-weight: bold;
+    text-align: right;
 }
